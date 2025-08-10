@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49902A7E2E38E6B7008DE30F /* AppleWatchTextGame Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 49902A7D2E38E6B7008DE30F /* AppleWatchTextGame Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49902A7F2E38E6B7008DE30F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49902A712E38E6B7008DE30F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49902A7C2E38E6B7008DE30F;
+			remoteInfo = "AppleWatchTextGame Watch App";
+		};
+		49902A902E38E6B8008DE30F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49902A712E38E6B7008DE30F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49902A7C2E38E6B7008DE30F;
+			remoteInfo = "AppleWatchTextGame Watch App";
+		};
+		49902A9A2E38E6B8008DE30F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49902A712E38E6B7008DE30F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49902A7C2E38E6B7008DE30F;
+			remoteInfo = "AppleWatchTextGame Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		49902AA62E38E6B8008DE30F /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				49902A7E2E38E6B7008DE30F /* AppleWatchTextGame Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		49902A772E38E6B7008DE30F /* AppleWatchTextGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleWatchTextGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49902A7D2E38E6B7008DE30F /* AppleWatchTextGame Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AppleWatchTextGame Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49902A8F2E38E6B8008DE30F /* AppleWatchTextGame Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AppleWatchTextGame Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49902A992E38E6B8008DE30F /* AppleWatchTextGame Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AppleWatchTextGame Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		49902A812E38E6B7008DE30F /* AppleWatchTextGame Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "AppleWatchTextGame Watch App";
+			sourceTree = "<group>";
+		};
+		49902A922E38E6B8008DE30F /* AppleWatchTextGame Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "AppleWatchTextGame Watch AppTests";
+			sourceTree = "<group>";
+		};
+		49902A9C2E38E6B8008DE30F /* AppleWatchTextGame Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "AppleWatchTextGame Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49902A7A2E38E6B7008DE30F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49902A8C2E38E6B8008DE30F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49902A962E38E6B8008DE30F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49902A702E38E6B7008DE30F = {
+			isa = PBXGroup;
+			children = (
+				49902A812E38E6B7008DE30F /* AppleWatchTextGame Watch App */,
+				49902A922E38E6B8008DE30F /* AppleWatchTextGame Watch AppTests */,
+				49902A9C2E38E6B8008DE30F /* AppleWatchTextGame Watch AppUITests */,
+				49902A782E38E6B7008DE30F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49902A782E38E6B7008DE30F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49902A772E38E6B7008DE30F /* AppleWatchTextGame.app */,
+				49902A7D2E38E6B7008DE30F /* AppleWatchTextGame Watch App.app */,
+				49902A8F2E38E6B8008DE30F /* AppleWatchTextGame Watch AppTests.xctest */,
+				49902A992E38E6B8008DE30F /* AppleWatchTextGame Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49902A762E38E6B7008DE30F /* AppleWatchTextGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49902AA72E38E6B8008DE30F /* Build configuration list for PBXNativeTarget "AppleWatchTextGame" */;
+			buildPhases = (
+				49902A752E38E6B7008DE30F /* Resources */,
+				49902AA62E38E6B8008DE30F /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49902A802E38E6B7008DE30F /* PBXTargetDependency */,
+			);
+			name = AppleWatchTextGame;
+			packageProductDependencies = (
+			);
+			productName = AppleWatchTextGame;
+			productReference = 49902A772E38E6B7008DE30F /* AppleWatchTextGame.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		49902A7C2E38E6B7008DE30F /* AppleWatchTextGame Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49902AA32E38E6B8008DE30F /* Build configuration list for PBXNativeTarget "AppleWatchTextGame Watch App" */;
+			buildPhases = (
+				49902A792E38E6B7008DE30F /* Sources */,
+				49902A7A2E38E6B7008DE30F /* Frameworks */,
+				49902A7B2E38E6B7008DE30F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				49902A812E38E6B7008DE30F /* AppleWatchTextGame Watch App */,
+			);
+			name = "AppleWatchTextGame Watch App";
+			packageProductDependencies = (
+			);
+			productName = "AppleWatchTextGame Watch App";
+			productReference = 49902A7D2E38E6B7008DE30F /* AppleWatchTextGame Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49902A8E2E38E6B8008DE30F /* AppleWatchTextGame Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49902AAA2E38E6B8008DE30F /* Build configuration list for PBXNativeTarget "AppleWatchTextGame Watch AppTests" */;
+			buildPhases = (
+				49902A8B2E38E6B8008DE30F /* Sources */,
+				49902A8C2E38E6B8008DE30F /* Frameworks */,
+				49902A8D2E38E6B8008DE30F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49902A912E38E6B8008DE30F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				49902A922E38E6B8008DE30F /* AppleWatchTextGame Watch AppTests */,
+			);
+			name = "AppleWatchTextGame Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "AppleWatchTextGame Watch AppTests";
+			productReference = 49902A8F2E38E6B8008DE30F /* AppleWatchTextGame Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		49902A982E38E6B8008DE30F /* AppleWatchTextGame Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49902AAD2E38E6B8008DE30F /* Build configuration list for PBXNativeTarget "AppleWatchTextGame Watch AppUITests" */;
+			buildPhases = (
+				49902A952E38E6B8008DE30F /* Sources */,
+				49902A962E38E6B8008DE30F /* Frameworks */,
+				49902A972E38E6B8008DE30F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49902A9B2E38E6B8008DE30F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				49902A9C2E38E6B8008DE30F /* AppleWatchTextGame Watch AppUITests */,
+			);
+			name = "AppleWatchTextGame Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "AppleWatchTextGame Watch AppUITests";
+			productReference = 49902A992E38E6B8008DE30F /* AppleWatchTextGame Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49902A712E38E6B7008DE30F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					49902A762E38E6B7008DE30F = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					49902A7C2E38E6B7008DE30F = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					49902A8E2E38E6B8008DE30F = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 49902A7C2E38E6B7008DE30F;
+					};
+					49902A982E38E6B8008DE30F = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 49902A7C2E38E6B7008DE30F;
+					};
+				};
+			};
+			buildConfigurationList = 49902A742E38E6B7008DE30F /* Build configuration list for PBXProject "AppleWatchTextGame" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49902A702E38E6B7008DE30F;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 49902A782E38E6B7008DE30F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49902A762E38E6B7008DE30F /* AppleWatchTextGame */,
+				49902A7C2E38E6B7008DE30F /* AppleWatchTextGame Watch App */,
+				49902A8E2E38E6B8008DE30F /* AppleWatchTextGame Watch AppTests */,
+				49902A982E38E6B8008DE30F /* AppleWatchTextGame Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49902A752E38E6B7008DE30F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49902A7B2E38E6B7008DE30F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49902A8D2E38E6B8008DE30F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49902A972E38E6B8008DE30F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49902A792E38E6B7008DE30F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49902A8B2E38E6B8008DE30F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49902A952E38E6B8008DE30F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49902A802E38E6B7008DE30F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49902A7C2E38E6B7008DE30F /* AppleWatchTextGame Watch App */;
+			targetProxy = 49902A7F2E38E6B7008DE30F /* PBXContainerItemProxy */;
+		};
+		49902A912E38E6B8008DE30F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49902A7C2E38E6B7008DE30F /* AppleWatchTextGame Watch App */;
+			targetProxy = 49902A902E38E6B8008DE30F /* PBXContainerItemProxy */;
+		};
+		49902A9B2E38E6B8008DE30F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49902A7C2E38E6B7008DE30F /* AppleWatchTextGame Watch App */;
+			targetProxy = 49902A9A2E38E6B8008DE30F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		49902AA12E38E6B8008DE30F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		49902AA22E38E6B8008DE30F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		49902AA42E38E6B8008DE30F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AppleWatchTextGame Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = RN9TK3JLQP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = AppleWatchTextGame;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = home.AppleWatchTextGame.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		49902AA52E38E6B8008DE30F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AppleWatchTextGame Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = RN9TK3JLQP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = AppleWatchTextGame;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = home.AppleWatchTextGame.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+		49902AA82E38E6B8008DE30F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RN9TK3JLQP;
+				INFOPLIST_KEY_CFBundleDisplayName = AppleWatchTextGame;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = home.AppleWatchTextGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		49902AA92E38E6B8008DE30F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RN9TK3JLQP;
+				INFOPLIST_KEY_CFBundleDisplayName = AppleWatchTextGame;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = home.AppleWatchTextGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49902AAB2E38E6B8008DE30F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RN9TK3JLQP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "home.AppleWatchTextGame-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppleWatchTextGame Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AppleWatchTextGame Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		49902AAC2E38E6B8008DE30F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RN9TK3JLQP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "home.AppleWatchTextGame-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppleWatchTextGame Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AppleWatchTextGame Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+		49902AAE2E38E6B8008DE30F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RN9TK3JLQP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "home.AppleWatchTextGame-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "AppleWatchTextGame Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		49902AAF2E38E6B8008DE30F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RN9TK3JLQP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "home.AppleWatchTextGame-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "AppleWatchTextGame Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49902A742E38E6B7008DE30F /* Build configuration list for PBXProject "AppleWatchTextGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49902AA12E38E6B8008DE30F /* Debug */,
+				49902AA22E38E6B8008DE30F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49902AA32E38E6B8008DE30F /* Build configuration list for PBXNativeTarget "AppleWatchTextGame Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49902AA42E38E6B8008DE30F /* Debug */,
+				49902AA52E38E6B8008DE30F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49902AA72E38E6B8008DE30F /* Build configuration list for PBXNativeTarget "AppleWatchTextGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49902AA82E38E6B8008DE30F /* Debug */,
+				49902AA92E38E6B8008DE30F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49902AAA2E38E6B8008DE30F /* Build configuration list for PBXNativeTarget "AppleWatchTextGame Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49902AAB2E38E6B8008DE30F /* Debug */,
+				49902AAC2E38E6B8008DE30F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49902AAD2E38E6B8008DE30F /* Build configuration list for PBXNativeTarget "AppleWatchTextGame Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49902AAE2E38E6B8008DE30F /* Debug */,
+				49902AAF2E38E6B8008DE30F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49902A712E38E6B7008DE30F /* Project object */;
+}
